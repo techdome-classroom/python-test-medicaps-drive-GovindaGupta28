@@ -13,6 +13,6 @@ def isValid(s: str) -> bool:
                 return False
 
     return not stack
-print(isValid("()"))       
+print(isValid("()"))
 print(isValid("()[]{}"))
 print(isValid("(]"))
