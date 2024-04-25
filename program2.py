@@ -20,8 +20,6 @@ def romanToInt(s: str) -> int:
         prev_value = current_value
 
     return result
-
-# Test cases
-print(romanToInt("III"))      # Output: 3
-print(romanToInt("LVIII"))    # Output: 58
+print(romanToInt("III"))
+print(romanToInt("LVIII"))
 print(romanToInt("MCMXCIV"))
